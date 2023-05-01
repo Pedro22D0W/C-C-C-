@@ -122,7 +122,7 @@ return 0;
 
     FILE *arquivo;                          //define variavel do tipo file     
 
-    arquivo = fopen("../texto/palavras.txt", "r");   //manda arquivo para variavel com tag "r" de somente leitura
+    arquivo = fopen("../palavras.txt", "r");   //manda arquivo para variavel com tag "r" de somente leitura
 
     int npalavras;                          //variavel com o numero de palavras
     fscanf(arquivo, "%d", &npalavras);      //manda o numero de palavras definido na primeira linha do arquivo para variavel
